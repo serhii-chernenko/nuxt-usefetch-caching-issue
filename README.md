@@ -1,6 +1,6 @@
 # useFetch caching issue
 
-I see that Nuxt 3.17.3 has "major" imporvements regarding the usage of `useFetch` and `useAsyncData` composables that has to significantly improve performance by sharing and caching data without a requirement of usage `getCachedData`.
+I see that Nuxt `3.17.4` has "major" imporvements regarding the usage of `useFetch` and `useAsyncData` composables that has to significantly improve performance by sharing and caching data without a requirement of usage `getCachedData`.
 The same `key` value is enough.
 
 I wanted to play with this a bit and prepared this demo repo to explain my issue.
